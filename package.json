@@ -1,0 +1,30 @@
+{
+  "name": "iot-stylelint-config",
+  "version": "1.0.0",
+  "description": "IoT stylelint 配置",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js44852410/iot-stylelint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js44852410/iot-stylelint-config/issues"
+  },
+  "homepage": "https://github.com/js44852410/iot-stylelint-config#readme",
+  "devDependencies": {
+    "stylelint": "^14.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-rational-order-fix": "^0.1.8",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-processor-html": "^1.0.0",
+    "stylelint-scss": "^4.0.0",
+    "stylelint-webpack-plugin": "^3.1.0",
+  }
+}
