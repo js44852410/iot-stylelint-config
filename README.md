@@ -51,6 +51,7 @@ configureWebpack: { // webpack的相关配置在这里
 ## 规则详情
 
 + css属性顺序：
+```
 Positioning：
     'position', 'top', 'right', 'bottom', 'left', 'z-index'
 Box Model：
@@ -284,3 +285,4 @@ Misc：
       'clip-rule',
       'stroke',
 
+```
