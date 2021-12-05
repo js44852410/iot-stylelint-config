@@ -48,6 +48,10 @@ module.exports = {
     "no-eol-whitespace": true,
     "at-rule-no-unknown": [true, {
       "ignoreAtRules": ["extend", "at-root", "debug", "warn", "error", "if", "else", "for", "each", "while", "mixin", "include", "content", "return", "function"]
-    }]
+    }],
+    // 无需使用百分比数字
+    "alpha-value-notation": null,
+    // 可以使用颜色方法（rgba、rgb）
+    "color-function-notation": null
   }
 }
