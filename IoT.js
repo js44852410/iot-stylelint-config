@@ -3,7 +3,7 @@ module.exports = {
   "extends": ["stylelint-config-standard", "stylelint-config-rational-order","stylelint-config-sass-guidelines"],
   "plugins": ["stylelint-scss", "stylelint-config-rational-order/plugin"],
   "rules": {
-    "color-hex-case": "upper",
+    "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
     "font-weight-notation": "numeric",

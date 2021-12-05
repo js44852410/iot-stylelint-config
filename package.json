@@ -1,6 +1,6 @@
 {
   "name": "iot-stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IoT stylelint 配置",
   "main": "index.js",
   "scripts": {
