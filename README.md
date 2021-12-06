@@ -1,4 +1,4 @@
-# iot-stylelint-config
+# @lfiot/stylelint-config
 IoT stylelint 配置
 
 
@@ -6,7 +6,7 @@ IoT stylelint 配置
 
 ```
 npm i -D stylelint stylelint-config-rational-order stylelint-config-sass-guidelines stylelint-config-standard stylelint-order stylelint-processor-html stylelint-scss stylelint-webpack-plugin
-npm i -D iot-stylelint-config
+npm i -D @lfiot/stylelint-config
 ```
 vue3移动端项目需安装依赖：
 ```
@@ -24,7 +24,7 @@ vue3移动端项目需安装依赖：
     "stylelint-config-standard",
     "stylelint-config-rational-order",
     "stylelint-config-sass-guidelines",
-    "iot-stylelint-config"
+    "@lfiot/stylelint-config"
   ],
   "plugins": ["stylelint-scss", "stylelint-config-rational-order/plugin"],
   "rules": {
