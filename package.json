@@ -1,6 +1,6 @@
 {
   "name": "@lfiot/stylelint-config",
-  "version": "1.0.4",
+  "version": "1.0.5-beta",
   "description": "IoT stylelint 配置",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/js44852410/iot-stylelint-config#readme",
   "devDependencies": {
+    
+  },
+  "peerDependencies": {
     "stylelint": "^14.1.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-rational-order-fix": "^0.1.8",
