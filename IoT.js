@@ -52,6 +52,9 @@ module.exports = {
     // 无需使用百分比数字
     "alpha-value-notation": null,
     // 可以使用颜色方法（rgba、rgb）
-    "color-function-notation": null
+    "color-function-notation": null,
+
+    // 使用单引号
+    "selector-pseudo-element-colon-notation": 'single'
   }
 }

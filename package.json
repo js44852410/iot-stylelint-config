@@ -1,6 +1,6 @@
 {
   "name": "@lfiot/stylelint-config",
-  "version": "1.0.5-beta",
+  "version": "1.0.5-beta1",
   "description": "IoT stylelint 配置",
   "main": "index.js",
   "scripts": {
