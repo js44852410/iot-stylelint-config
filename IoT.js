@@ -3,7 +3,7 @@ module.exports = {
   "extends": ["stylelint-config-standard", "stylelint-config-rational-order","stylelint-config-sass-guidelines"],
   "plugins": ["stylelint-scss", "stylelint-config-rational-order/plugin"],
   "rules": {
-    "color-hex-case": "lower",
+    "color-hex-case": "upper",
     "color-hex-length": "short",
     "color-named": "never",
     "font-weight-notation": "numeric",
@@ -54,7 +54,15 @@ module.exports = {
     // 可以使用颜色方法（rgba、rgb）
     "color-function-notation": null,
 
-    // 使用单引号
-    "selector-pseudo-element-colon-notation": 'single'
+    // 使用单个冒号
+    "selector-pseudo-element-colon-notation": 'single',
+
+    // 忽略 vue3 :deep(*)语法
+    "selector-pseudo-class-no-unknown": [true, {
+      "ignorePseudoClasses": ["deep"]
+    }],
+
+    // 可以添加浏览器前缀
+    "value-no-vendor-prefix": null,
   }
 }
