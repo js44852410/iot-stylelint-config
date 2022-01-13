@@ -1,5 +1,4 @@
 module.exports = {
-  "processors": ["stylelint-processor-html"],
   "extends": ["stylelint-config-standard", "stylelint-config-rational-order","stylelint-config-sass-guidelines"],
   "plugins": ["stylelint-scss", "stylelint-config-rational-order/plugin"],
   "rules": {
